@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+       <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+       div{
+        display: flex;
+        margin: 0;
+        padding:0;
+       } 
+       #d1{
+        margin: 0;
+        float: left;
+       }
+       #d2{
+        margin: 0;
+        float: right;
+
+       }
+       #s1{
+        float: left;
+       }
+       #s2{
+        float: right;
+       }
+       #s3{
+        float: left;
+       }
+       #s4{
+        float: right;
+       }
+       ul{
+        list-style-type: none;
+       }
+    </style>
+
+    
+</head>
+<body>
+    <!-- header section starts  -->
+          
+    
+    
+        <header style="display:inline; align-items: center; justify-content: center;">
+            <nav class="navbar">
+            <ul style="padding-top: 80px;">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="venue.html"><li>Venue</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="blog.html"><li>Blog<li></a>
+                        <span style="padding-left: 1000px;font-size: ;"><a href="login.html"><li><li></a></span>
+
+
+
+                </ul>
+            </nav>
+        </header>
+        <!-- <div style="width: 50%;height: 100vh; border: solid 1px white;" id="d1">
+        <section style="height: 100%;width:50vb; border: solid 1px white;"id="s1">
+            <ul>
+                <li> -->
+                <!-- <img style="width: 100%; " src="./img/engagement.jpg" alt="#"> -->
+                <!-- </li> -->
+                <!-- <li>
+                <img style="width: 100%;height: 100vh; " src="./img/marriage2.jpg" alt="#">
+
+                </li>
+                
+            </ul>
+        </section>
+        <section style="height: 100vh;width: 50vb; border: solid 1px white;" id="s2">
+            <ul>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+                </li>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+    <div style="width:50%;height: 100vh; border: solid 1px white; " id="d2">
+        <section style="height: 100%;width:50vb; border: solid 1px white;"id="s3">
+            <ul>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+                </li>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+
+                </li>
+               
+            </ul>
+        </section>
+        <section style="height: 100px;width: 50vb; border: solid 1px white;" id="s4">
+            <ul>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+                </li>
+                <li>
+                <img style="width: 100%; " src="./img/engagement.jpg" alt="#">
+
+                </li>
+                
+            </ul>
+        </section>
+    </div> -->
+ 
+
+ <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <style>
+
+        /* Styling the body */
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        /* Styling section, giving background
+
+            image and dimensions */
+
+        section {
+
+            width: 100%;
+
+            height: 100vh;
+
+            background-color: #262626;
+
+                
+
+            background-size: cover;
+
+        }
+
+        /* Styling the left floating section */
+
+        section .leftBox {
+
+            width: 50%;
+
+            height: 100%;
+
+            float: left;
+
+            padding: 50px;
+
+            box-sizing: border-box;
+
+        }
+
+        /* Styling the background of 
+
+            left floating section */
+
+        section .leftBox .content {
+
+            color: #fff;
+
+            background: rgba(0, 0, 0, 0.5);
+
+            padding: 40px;
+
+            transition: .5s;
+
+        }
+
+        /* Styling the hover effect  
+
+            of left floating section */
+
+        section .leftBox .content:hover {
+
+            background: #e91e63;
+
+        }
+
+        /* Styling the header of left 
+
+            floating section */
+
+        section .leftBox .content h1 {
+
+            margin: 0;
+
+            padding: 0;
+
+            font-size: 50px;
+
+            text-transform: uppercase;
+
+        }
+
+        /* Styling the paragraph of 
+
+            left floating section */
+
+        section .leftBox .content p {
+
+            margin: 10px 0 0;
+
+            padding: 0;
+
+        }
+
+        /* Styling the three events section */
+
+        section .events {
+
+            position: relative;
+
+            width: 50%;
+
+            height: 100%;
+
+            background: rgba(0, 0, 0, 0.5);
+
+            float: right;
+
+            box-sizing: border-box;
+
+        }
+
+        /* Styling the links of 
+
+        the events section */
+
+        section .events ul {
+
+            position: absolute;
+
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            margin: 0;
+
+            padding: 40px;
+
+            box-sizing: border-box;
+
+        }
+
+        /* Styling the lists of the event section */
+
+        section .events ul li {
+
+            list-style: none;
+
+            background: #fff;
+
+            box-sizing: border-box;
+
+            height: 200px;
+
+            margin: 15px 0;
+
+        }
+
+        /* Styling the time class of events section */
+
+        section .events ul li .time {
+
+            position: relative;
+
+            padding: 20px;
+
+            background: #262626;
+
+            box-sizing: border-box;
+
+            width: 30%;
+
+            height: 100%;
+
+            float: left;
+
+            text-align: center;
+
+            transition: .5s;
+
+        }
+
+        /* Styling the hover effect
+
+            of events section */
+
+        section .events ul li:hover .time {
+
+            background: #e91e63;
+
+        }
+
+        /* Styling the header of time 
+
+            class of events section */
+
+        section .events ul li .time h2 {
+
+            position: absolute;
+
+            margin: 0;
+
+            padding: 0;
+
+            top: 50%;
+
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            color: #fff;
+
+            font-size: 30px;
+
+            line-height: 30px;
+
+        }
+
+        /* Styling the texts of time 
+
+        class of events section */
+
+        section .events ul li .time h2 span {
+
+            font-size: 30px;
+
+        }
+ 
+
+        /* Styling the details 
+
+        class of events section */
+
+        section .events ul li .details {
+
+            padding: 20px;
+
+            background: #fff;
+
+            box-sizing: border-box;
+
+            width: 70%;
+
+            height: 100%;
+
+            float: left;
+
+        }
+
+        /* Styling the header of the 
+
+        details class of events section */
+
+        section .events ul li .details h3 {
+
+            position: relative;
+
+            margin: 0;
+
+            padding: 0;
+
+            font-size: 22px;
+
+        }
+
+        /* Styling the lists of details 
+
+        class of events section */
+
+        section .events ul li .details p {
+
+            position: relative;
+
+            margin: 10px 0 0;
+
+            padding: 0;
+
+            font-size: 16px;
+
+        }
+
+        /* Styling the links of details
+
+        class of events section */
+
+        section .events ul li .details a {
+
+            display: inline-block;
+
+            text-decoration: none;
+
+            padding: 10px 15px;
+
+            border: 1.5px solid #262626;
+
+            margin-top: 8px;
+
+            font-size: 18px;
+
+            transition: .5s;
+
+        }
+
+        /* Styling the details class's hover effect */
+
+        section .events ul li .details a:hover {
+
+            background: #e91e63;
+
+            color: #fff;
+
+            border-color: #e91e63;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <section>
+
+        <div class="leftBox">
+
+            <div class="content">
+
+                <h1>
+
+                    Welcome to Aurora Events
+
+                </h1>
+
+                <p style="text-align: left;">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                Your Venue Destination
+
+At Aurora Events, we understand that the right venue can transform an ordinary event into an extraordinary one. Our Venue page is your gateway to discovering the perfect spaces that will set the stage for unforgettable moments. Whether you're planning a corporate conference, a dreamy wedding, a lively concert, or any special gathering, we've got you covered.
+
+Why Choose Aurora Events for Venue Booking?
+
+Diverse Selection: Explore a diverse range of venues that cater to every occasion and style. From intimate spaces to grand ballrooms, scenic outdoor locations to high-tech conference centers, our platform offers an extensive collection of venues to suit your needs.
+
+User-Friendly Interface: Our user-friendly interface makes it a breeze to browse and compare venues. Filter your search based on location, capacity, amenities, and budget to find the options that match your vision.
+
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="events">
+
+            <ul>
+
+                <li>
+
+                    <div class="time" style="width: 100vb;">
+
+                        <h2>
+
+                            WEDDINGS
+
+                        </h2>
+
+                    </div>
+
+                    <!-- <div class="details">
+
+
+                        
+
+                        </p>
+
+                        <a href="#">View Details</a>
+
+                    </div> -->
+                    <!-- <img   src="./img/marriage2.jpg" alt="#"> -->
+
+                    <div style="clear: both;"></div>
+
+                </li>
+
+                <li>
+
+
+                    <div class="time" style="width: 100vb;">
+                        <h2 >
+
+                            WORKSHOPS<br>/SEMINARS
+
+                        </h2>
+
+                    </div>
+
+                    
+
+                    <div style="clear:both;"></div>
+
+                </li>
+
+                <li>
+
+
+                    <div class="time" style="width: 100vb;">
+                        <h2 >
+
+                            CONCERTS
+
+                        </h2>
+
+                    </div>
+
+
+    </section>
+
+</body>
+
+</html>
+</body>
+</html
+
+        
+    
